@@ -1,4 +1,4 @@
-#SOC_CHIPDESIGN_VSD
+SOC_CHIPDESIGN_VSD
 <details>
   <summary>
 Expand or Collapse
