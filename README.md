@@ -369,6 +369,18 @@ Expand or Collapse
 
    ![Image](https://github.com/user-attachments/assets/7c3b96d7-fa43-412d-b41e-56935fe623f0)
 
+   </details>
+
+### Section 1 Task
+<details>
+<summary>
+Expand or Collapse
+  </summary>
+
+### Find The Flop Ratio
+- It is the number of 'd' flipflops divided by the number of cells
+
+
  
 
 
