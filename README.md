@@ -231,21 +231,19 @@ Expand or Collapse
 ![Image](https://github.com/user-attachments/assets/f7b1d344-b0d0-4cb3-8e74-dc5472db365a)
 
  ### Pin placement and logical cell placement blockage:
- - Pin placement is an important step in the floor plan, which can be optimized based on pin placement requirements. The pin placement can be done based on timing, congestion, and utilization of the chip. Pin placement in macros utilizes M3 layers most of the time, so the macro needs to be placed logically.
+ - Pin placement is an important step in the floor plan, which can be optimized based on pin placement requirements. The pin placement can be done based on timing, congestion, and utilization of the chip. Pin placement in macros utilizes M3 layers most of the time, so the macro needs to be placed logically. library binding and palcement
 
 ![Image](https://github.com/user-attachments/assets/e0317c19-7db1-4e6f-ab7b-0483081a5694)
 
 ![Image](https://github.com/user-attachments/assets/94f2c5fc-7179-424c-9f22-91b4fe5dedc0)
 
 
-<details>
-  <summary>
-Expand or Collapse
-  </summary>
+  
+  </details>
+  
+### Library and Binding Placement
 
-### LIBRARY BINDING AND PLACEMENT
-
-<details>
+  <details>
   <summary>
 Expand or Collapse
   </summary>
@@ -272,7 +270,48 @@ Expand or Collapse
 - Part-I: Concepts and Theory – NLDM, CCS timing, and power and noise characterization.
 - Logic Synthesis   -->       Floor Planning    -->     Placement   -->       CTS   -->      Routing
 
+  ![Image](https://github.com/user-attachments/assets/a3b0ca45-1a70-444c-b184-83749307133e)
 
+### Static Timing Analysis:
+- Static timing analysis (STA) is a method of validating the timing performance of a design by checking all possible paths for timing violations.
+
+![Image](https://github.com/user-attachments/assets/6a868906-05d9-4b75-b1fb-d45dede92a65)
+
+ </details>
+  
+### CELL DESIGN AND CHARACTERIZATION FLOWS
+  <details>
+  <summary>
+Expand or Collapse
+  </summary>
+### Cell Design Flow:
+- These stages include system specifications, architectural design, functional design, logic design, circuit design, physical design verification, and manufacturing.
+
+![Image](https://github.com/user-attachments/assets/0d26360f-2d23-4491-a347-65d977f119ca)
+
+![Image](https://github.com/user-attachments/assets/3b8a056d-d863-4832-870a-d4120be11402)
+
+### Time Characterisation:
+
+![Image](https://github.com/user-attachments/assets/9b9e5551-89dc-4333-8d62-e0e0de4591f3)
+
+### Propagation Delay:
+
+![Image](https://github.com/user-attachments/assets/2660d398-2205-44c0-aaf0-1f8481aad16a)
+
+</details>
+ </details>
+ 
+
+  
+  
+  
+## GETTING FAMILIAR TO OPENSOURCE EDA TOOLS
+<details>
+  <summary>
+Expand or Collapse
+  </summary>
+  </summary>
 
 
   
