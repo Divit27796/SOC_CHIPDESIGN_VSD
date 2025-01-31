@@ -224,7 +224,23 @@ Expand or Collapse
 - we choose higher metal layers with less resistance to supply power to the block because they have lesser resistance and chances of Electro migration is lesser in higher metal layers, so during power planning width of the metal layer is decided based on EM limit.
 
  ### Prevents Overheating:
- By controlling current flow, power planning reduces the risk of metal wires weakening due to excessive current.
+ - By controlling current flow, power planning reduces the risk of metal wires weakening due to excessive current.
+
+ ![Image](https://github.com/user-attachments/assets/348bcca5-fa16-4c9b-b63e-3b30780ad156)
+
+![Image](https://github.com/user-attachments/assets/f7b1d344-b0d0-4cb3-8e74-dc5472db365a)
+
+ ### Pin placement and logical cell placement blockage:
+ - Pin placement is an important step in the floor plan, which can be optimized based on pin placement requirements. The pin placement can be done based on timing, congestion, and utilization of the chip. Pin placement in macros utilizes M3 layers most of the time, so the macro needs to be placed logically.
+
+![Image](https://github.com/user-attachments/assets/e0317c19-7db1-4e6f-ab7b-0483081a5694)
+
+![Image](https://github.com/user-attachments/assets/94f2c5fc-7179-424c-9f22-91b4fe5dedc0)
+
+
+
+
+ 
 
 
   
