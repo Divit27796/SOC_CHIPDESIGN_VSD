@@ -380,6 +380,13 @@ Expand or Collapse
 ### Find The Flop Ratio
 - It is the number of 'd' flipflops divided by the number of cells
 
+  ![Image](https://github.com/user-attachments/assets/1f0a678a-7087-4c49-aeef-78637ee938fd)
+  
+- You can see here the synthesis statistic report in which the 'd' flipflop are 1613 and the number of cells are 18036
+- So, Flop ratio = 1613/18036 = 0.0894322466
+- In percentage it is 0.0894322466 * 100 = 8.94322466
+- Here, flop ratio is 8.94322466
+
 
  
 
