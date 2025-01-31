@@ -319,16 +319,57 @@ Expand or Collapse
 Expand or Collapse
   </summary>
 
+### The code which will be used to open the intreactive mode of openlane is as:
+    # Change directory to openlane directory
+     vsduser@vsdsquadron:~$ cd Desktop
+     vsduser@vsdsquadron:~/Desktop$ cd /work/tools
+     vsduser@vsdsquadron:~Desktop/work/tools$ cd openlane_working_dir
+    vsduser@vsdsquadron:~Desktop/work/tools/openlane_working_dir$ cd openlane
+    vsduser@vsdsquadron:~Desktop/work/tools/openlane_working_dir/openlane$
+    # run command docker
+    vsduser@vsdsquadron:~Desktop/work/tools/openlane_working_dir/openlane$ docker
+    bash-4.2$
+    #give command to run in interactive mode
+    bash-4.2$ ./flow.tcl -interactive
+    # program starts running in interactive mode
     
-  
+![Image](https://github.com/user-attachments/assets/4efbb4ab-1638-46e5-89e1-4a6bc1331a52)
 
 
-  
+</details>
 
+### Commands to Run Synthesis In Openlane:
+<details>
+<summary>
+Expand or Collapse
+  </summary>
 
+ ### Command to run synthesis as:
+ - but first we have to do preperation
+ - For it the code is as:
 
+       # In openlane interactive mode we will write these commands
+         % package require openlane 0.9
+         0.9
+         # Now the OpenLANE flow is ready to run any design.
+         # Initially we have to prep the design creating some necessary files and directories for running the 'picorv32a'
+         % prep -design picorv32a 
 
+  - After writing the command it will show us this screen:
 
+    ![Image](https://github.com/user-attachments/assets/b3371617-3eb0-4e71-82a1-ac92cd59b46f)
+
+ - Now we write the code written below to run synthesis
+      
+        % run_synthesis
+        # Synthesis starts
+ - It will show the below screen when we write this command
+
+   ![Image](https://github.com/user-attachments/assets/53a09232-9072-4844-80ce-db2c62561eea)
+
+   ![Image](https://github.com/user-attachments/assets/7c3b96d7-fa43-412d-b41e-56935fe623f0)
+
+ 
 
 
 
