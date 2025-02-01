@@ -443,6 +443,10 @@ Expand or Collapse
 
   ![Image](https://github.com/user-attachments/assets/56090529-3093-43db-be61-9e7267652a29)
 
+ ###  Equidistant placement of pins:
+
+ ![Image](https://github.com/user-attachments/assets/0dbc3076-fcd0-4a39-abd5-b114fa6ecd6c)
+
 
 </details>
 
@@ -499,8 +503,59 @@ Expand or Collapse
   ![Image](https://github.com/user-attachments/assets/6e1c5607-b022-4df5-948f-76951b2018bc)
 
   
+</details>
 
+### Steps to git clone
+<details>
+<summary>
+Expand or Collapse
+  </summary>
   
+### The code is as follows:
+
+     # Change directory to openlane
+    cd Desktop/work/tools/openlane_working_dir/openlane
+
+    # Clone the repository with custom inverter design
+    git clone https://github.com/nickson-jose/vsdstdcelldesign
+
+    # Change into repository directory
+    cd vsdstdcelldesign
+
+    # Copy magic tech file to the repo directory for easy access
+    cp /home/vsduser/Desktop/work/tools/openlane_working_dir/pdks/sky130A/libs.tech/magic/sky130A.tech .
+
+    # Check contents whether everything is present
+    ls
+
+    # Command to open custom inverter layout in magic
+    magic -T sky130A.tech sky130_inv.mag &
+  
+
+
+![Image](https://github.com/user-attachments/assets/b749efa7-4aa2-45dc-93a4-d268fb450420)
+
+</details>
+
+### Identification for pmos and nmos
+<details>
+<summary>
+Expand or Collapse
+  </summary>
+
+  ### Nmos:
+
+  ![Image](https://github.com/user-attachments/assets/db2b40f5-4934-4d5e-8a2f-fc3b03b59641)
+
+  ![Image](https://github.com/user-attachments/assets/b4e3ed6f-2731-4ca0-990d-ff24b65c058b)
+
+
+   ### Pmos:
+
+   ![Image](https://github.com/user-attachments/assets/e4316d32-a79b-41ff-8164-db2ceeb8e881)
+
+![Image](https://github.com/user-attachments/assets/942af933-c337-46d7-a6cd-009010de779f)
+
 
 
 
