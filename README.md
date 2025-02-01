@@ -558,7 +558,19 @@ Expand or Collapse
 
 
 
+</details>
 
+### Steps to extract spice netlist
+<details>
+<summary>
+Expand or Collapse
+  </summary>
+
+### the code is as follows
+
+![Image](https://github.com/user-attachments/assets/b062c450-2e60-455a-8d2c-f6c2e7b99511)
+
+![Image](https://github.com/user-attachments/assets/7eef710e-b27c-4b16-8699-96fea5209489)
 
 
 
