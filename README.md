@@ -427,7 +427,80 @@ Expand or Collapse
 ![Image](https://github.com/user-attachments/assets/7a744cba-cfd2-40a4-ae8f-2a7faee94bae)
 
 
+### Floorplan.def in MAGIC :-
 
+### The code to open floorplan.def in magic is as follows:
+
+    # Change directory to path containing generated floorplan def
+    cd Desktop/work/tools/openlane_working_dir/openlane/designs/picorv32a/runs/28-01_13-06/results/floorplan/
+
+    # Command to load the floorplan def in magic tool
+    magic -T /home/vsduser/Desktop/work/tools/openlane_working_dir/pdks/sky130A/libs.tech/magic/sky130A.tech lef read ../../tmp/merged.lef def read picorv32a.floorplan.def &
+
+![Image](https://github.com/user-attachments/assets/db0958ea-362f-4fde-a564-15b832afab1a)
+
+### After you write the code this screen will appear
+
+  ![Image](https://github.com/user-attachments/assets/56090529-3093-43db-be61-9e7267652a29)
+
+
+</details>
+
+### Finding dimension of the chip in micrometer
+<details>
+<summary>
+Expand or Collapse
+  </summary>
+  
+
+![Image](https://github.com/user-attachments/assets/6234777e-d912-4b42-ada4-228026be37e7)
+
+
+- As you see in die area there are two 0
+- First Zero is lower left x value
+- second Zero is lower left y value
+
+- The number 660685 is the upper right x value
+- The number 671405 is the upper right y value
+
+- Units distance microns is the database unit per micron that is 1 micron equals to 1000 database units
+
+- If you divide these numbers by 1000 it will give you the dimensions of the chip in micrometer.
+
+- So, dimensions = upper right x value/1000
+- Same as here dimensions =  upper right y value/1000
+
+- Which equals to 660685/1000
+  = 660.685 micrometer
+
+- Same as here which equals to 671405/1000
+  = 671.405 micrometer
+
+
+</details>
+
+### Running placement in openlane
+<details>
+<summary>
+Expand or Collapse
+  </summary>
+
+  
+    # After floor planning, the next step is placement. run the following command
+    % run_placement
+    # The placement process starts
+
+ ![Image](https://github.com/user-attachments/assets/ce7a5f54-7c37-41f4-b36d-20e8491247a0)
+ 
+
+- After the placement is complete it will show the following screen:
+  
+
+  ![Image](https://github.com/user-attachments/assets/6e1c5607-b022-4df5-948f-76951b2018bc)
+
+  
+
+  
 
 
 
