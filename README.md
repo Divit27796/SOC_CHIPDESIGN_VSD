@@ -386,9 +386,47 @@ Expand or Collapse
 - So, Flop ratio = 1613/18036 = 0.0894322466
 - In percentage it is 0.0894322466 * 100 = 8.94322466
 - Here, flop ratio is 8.94322466
+  
 
+
+</details>
+
+### RUNNING FLOORPLAN IN OPENLANE 
+<details>
+<summary>
+Expand or Collapse
+  </summary>
+
+### Commands to run floorplan are as follows:
+
+    # Change directory to openlane flow directory
+    cd Desktop/work/tools/openlane_working_dir/openlane
+    # Run the docker command
+    docker
+
+
+     # Now that we have entered the OpenLANE flow contained docker sub-system we can invoke the OpenLANE flow in the Interactive mode using the following command
+     ./flow.tcl -interactive
+
+     # Now that OpenLANE flow is open we have to input the required packages for proper functionality of the OpenLANE flow
+     package require openlane 0.9
+
+     # Now the OpenLANE flow is ready to run any design and initially we have to prep the design creating some necessary files and directories for running a specific design 
+     which in our case is 'picorv32a'
+     prep -design picorv32a
+
+     # Now that the design is prepped and ready, we can run synthesis using following command
+     run_synthesis
+
+     # Now we can run floorplan
+    run_floorplan
 
  
+![Image](https://github.com/user-attachments/assets/5287506e-52fa-470e-b053-775ee18c2878)
+
+![Image](https://github.com/user-attachments/assets/7a744cba-cfd2-40a4-ae8f-2a7faee94bae)
+
+
 
 
 
